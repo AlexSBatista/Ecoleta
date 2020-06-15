@@ -1,4 +1,36 @@
-@media (max-width: 900px) {
+@media (max-width: 400px) {
+  #modal .content{
+    width: 300px;
+  }
+
+  #modal form input {
+    width: 240px;
+  } 
+
+  #page-home .content a {
+    margin-top: 100px;
+  }
+
+  #page-home .content main a {
+    width: 300px;
+    margin-bottom: 15px;
+  }
+
+  #page-create-point form {
+    padding: 25px;
+  }
+
+  #page-create-point form button {
+    margin-left: 8px;
+  }
+
+  #page-create-point fieldset .items-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media
+ (max-width: 900px) {
   #page-home {
     background-position-x: 70vw;
   }
